@@ -1,0 +1,4 @@
+repository "tez_projesi_2/tez_projesi_2@18968138088212@cloud"
+  path "/"
+    br "/main"
+    co "/main"
