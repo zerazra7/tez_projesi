@@ -2716,7 +2716,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!114 &3468680215295115000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3016,8 +3016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1d87fbcf7ddb147bd3dccd459bd9c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  turnSpeed: 31
+  speed: 8
+  turnSpeed: 50
   FootstepClips: []
   StepInterval: 1
 --- !u!114 &6948217418654345764
@@ -3141,7 +3141,7 @@ Transform:
   m_GameObject: {fileID: 5370096043086749635}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.1, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4152,7 +4152,7 @@ Transform:
   m_GameObject: {fileID: 8826712988254686407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.01, y: 3.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
