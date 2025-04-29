@@ -9,7 +9,7 @@ public class SceneTransition : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Eðer çarpýþan obje "Player" tag'ine sahipse
         {
-            SceneManager.LoadScene(PoolroomsDemo); // Belirtilen sahneye geçiþ yap
+            SceneManager.LoadScene("Level 1"); // Belirtilen sahneye geçiþ yap
         }
     }
 }
