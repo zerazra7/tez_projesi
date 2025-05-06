@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - JumpscareArea
+  - Note
   layers:
   - Default
   - TransparentFX
