@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Enemy
   - JumpscareArea
-  - JumpscareArea2
+  - Note
   layers:
   - Default
   - TransparentFX
