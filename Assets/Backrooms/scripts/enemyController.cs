@@ -19,7 +19,7 @@ public class enemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
-        // Panel oyunda baþta kapalý olsun:
+        // panel oyunda baþta kapalý olsun:
         gameOverPanel.SetActive(false);
     }
 
@@ -41,7 +41,7 @@ public class enemyController : MonoBehaviour
             agent.isStopped = true;
             anim.SetBool("isMoving", false);
 
-            // Paneli aç, zamaný durdurabilirsin:
+            // Paneli aç, zamaný durdurablrsin
             gameOverPanel.SetActive(true);
             Time.timeScale = 0f;
         }
