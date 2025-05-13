@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class JumpscareController : MonoBehaviour
 {
     public Image jumpscareImage1, jumpscareImage2;
-    public AudioClip jumpscareSound1, jumpscareSound2;
+    public AudioClip jumpscareSound1, jumpscareSound2,jumpscareSound3;
     public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
@@ -23,11 +23,20 @@ public class JumpscareController : MonoBehaviour
             audioSource.PlayOneShot(jumpscareSound2);
             StartCoroutine(CloseJumpscare());
         }
+
+        if (other.gameObject.CompareTag("JumpscareArea3"))
+        {
+            
+            audioSource.PlayOneShot(jumpscareSound3);
+        }
+
+
+
     }
 
     private IEnumerator CloseJumpscare()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         jumpscareImage1.enabled=false;
         jumpscareImage2.enabled = false;
     }
