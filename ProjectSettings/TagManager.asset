@@ -9,6 +9,7 @@ TagManager:
   - Note
   - JumpscareArea2
   - JumpscareArea3
+  - JumpscareArea4
   layers:
   - Default
   - TransparentFX
