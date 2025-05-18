@@ -9,10 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Backrooms/Scenes/R1_Backrooms.unity
+    path: Assets/Backrooms/Scenes/mainMenu.unity
+    guid: 68c767b1d74f0974cb4046a99ea8fd5a
+  - enabled: 1
+    path: Assets/Backrooms/Scenes/Level 0.unity
     guid: 12e3b8fe29d4a3548b04eabde5be7ce2
   - enabled: 1
-    path: Assets/Backrooms/Scenes/PoolroomsDemo.unity
+    path: Assets/Backrooms/Scenes/Level 1.unity
     guid: 9c539d17946e0254c930c97dafe24608
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
