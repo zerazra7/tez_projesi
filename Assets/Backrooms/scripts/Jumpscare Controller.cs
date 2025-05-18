@@ -19,9 +19,9 @@ public class JumpscareController : MonoBehaviour
 
         if(other.gameObject.CompareTag("JumpscareArea2"))
         {
-            jumpscareImage2.enabled = true;
+           // jumpscareImage2.enabled = true;
             audioSource.PlayOneShot(jumpscareSound2);
-            StartCoroutine(CloseJumpscare());
+           // StartCoroutine(CloseJumpscare());
         }
 
         if (other.gameObject.CompareTag("JumpscareArea3"))
